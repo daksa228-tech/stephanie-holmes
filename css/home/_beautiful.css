@@ -44,3 +44,6 @@
     flex-wrap: wrap;
     gap: 40px;
 }
+.beautiful__subtext {
+    font-size: 14px;
+}
