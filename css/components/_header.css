@@ -1,0 +1,36 @@
+.header {
+    margin: 20px 0;
+}
+
+.header__inner {
+    color: var(--Lavender-Mist);
+    background-color: var(--Royal-Night);
+    font-family: var(--font-family);
+    border-radius: 20px;
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    font-size: 14px;
+    display: flex;
+    gap: 24px;
+}
+
+.header__link {
+    color: var(--Lavender-Mist);
+    padding: 12px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.header__button {
+    color: var(--Lavender-Mist);
+    border: 1px solid var(--Lavender-Mist);
+    padding: 10px 20px;
+    border-radius: 20px;
+}

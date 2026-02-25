@@ -1,0 +1,19 @@
+@import url(basic/_reset.css);
+@import url(basic/_fonts.css);
+@import url(basic/_global.css);
+@import url(basic/_vars.css);
+
+@import url(components/_header.css);
+@import url(components/_btn.css);
+@import url(components/_footer.css);
+
+@import url(home/_beautiful.css);
+@import url(home/_cards.css);
+@import url(home/_korba.css);
+
+* {
+  box-sizing: border-box;
+}
+body {
+    background-color: var(--Deep-Void);
+}

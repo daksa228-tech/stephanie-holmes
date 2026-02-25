@@ -1,0 +1,50 @@
+.beautiful {
+  margin-bottom: 40px;
+}
+.beautiful__inner {
+    padding: 110px 40px 40px;
+    border-radius: 20px;
+    min-height: 600px;
+    color: var(--Lavender-Mist);
+    background-color: var(--Royal-Night);
+    font-family: var(--font-family);
+}
+
+.beautiful__content {
+    max-width: 900px;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 1;
+    margin-bottom: 24px;
+}
+
+.beautiful__content span {
+    font-family: var(--third-family);
+    font-style: italic;
+    font-weight: 400;
+    background: linear-gradient(90deg, #8338ec 0%, #b923ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.beautiful__text {
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: -0.96px;
+    margin-bottom: 60px;
+    max-width: 540px;
+}
+
+
+.beautiful__bottom {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.beautiful__subtext {
+    font-size: 14px;
+}
