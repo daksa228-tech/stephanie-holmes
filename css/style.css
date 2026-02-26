@@ -10,6 +10,7 @@
 @import url(home/_beautiful.css);
 @import url(home/_cards.css);
 @import url(home/_korba.css);
+@import url(home/_trail.css);
 
 * {
   box-sizing: border-box;
