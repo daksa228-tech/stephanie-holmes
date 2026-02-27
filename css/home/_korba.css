@@ -55,6 +55,7 @@
 .korba__text {
     margin-top: auto;
     margin-bottom: 32px;
+    font-size: 14px;
 }
 
 .korba__btn {
@@ -64,4 +65,5 @@
     padding: 10px 20px;
     border-radius: 20px;
     margin-left: auto;
+    font-size: 14px;
 }

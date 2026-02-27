@@ -11,6 +11,7 @@
 @import url(home/_cards.css);
 @import url(home/_korba.css);
 @import url(home/_trail.css);
+@import url(home/_awards.css);
 
 * {
   box-sizing: border-box;
