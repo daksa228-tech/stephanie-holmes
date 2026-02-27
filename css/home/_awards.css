@@ -24,48 +24,39 @@
 .awards__main {
     font-weight: 500;
     font-size: 50px;
-    line-height: 100%;
-    letter-spacing: -0.02em;
-    color: var(--deep-void);
+    letter-spacing: -2%;
 }
 
 .awards__list {
+    bottom: 58px;
     display: flex;
     flex-direction: column;
-
-    padding: 0px;
-    display: flex;
-    flex-direction: column;
-    left: 645px;
+    left: 605px;
     position: relative;
 }
 
 .awards__items {
+    min-height: 58px;
+    min-width: 715px;
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
-    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--Midnight-Pulse);
+    border-top: 1px solid var(--Midnight-Pulse);
 }
 
-.awards__info {}
+.awards__info {
 
-.awards__title {
-    color: var(--Deep-Void);
+}
+
+.awards__text {
     display: block;
     font-size: 22px;
     font-weight: 500;
 }
 
-.awards__subtitle {
+.awards__subtext {
     font-weight: 400;
-    display: block;
     font-size: 14px;
     text-transform: uppercase;
-    color: var(--Deep-Void);
-    letter-spacing: 0.5px;
-}
-
-.awards__arrow {
-    font-size: 24px;
-    font-weight: 300;
 }
