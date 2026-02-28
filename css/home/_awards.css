@@ -5,20 +5,23 @@
 .awards__inner {
     color: var(--Deep-Void);
     font-family: var(--font-family);
-    justify-content: space-between;
     padding: 60px 40px 60px 40px;
-    display: flex;
-    gap: 40px;
     border-radius: 40px;
     background-color: var(--Lavender-Mist);
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
 }
 
 .awards__content {
-    max-width: 400px;
-    width: 100%;
+    height: 392px;
+    width: 605px;
     display: flex;
-    flex-direction: column;
-    text-align: left;
+
 }
 
 .awards__main {
@@ -28,24 +31,27 @@
 }
 
 .awards__list {
-    bottom: 58px;
+    height: 392px;
+    width: 715px;
+    padding: 0px;
     display: flex;
     flex-direction: column;
-    left: 605px;
     position: relative;
 }
 
+
 .awards__items {
+    padding: 20px 0px;
     min-height: 58px;
     min-width: 715px;
     display: flex;
     justify-content: space-between;
-    padding: 20px 0;
     border-bottom: 1px solid var(--Midnight-Pulse);
-    border-top: 1px solid var(--Midnight-Pulse);
 }
 
+
 .awards__info {
+    min-height: 58px;
 
 }
 

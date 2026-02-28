@@ -22,15 +22,19 @@
     flex-direction: column;
     text-align: left;
 }
-.trail__img {
-    margin-left: 150px;
+.trail__wrapper {
     position: relative;
+    margin-left: 150px;
+    display: inline-block;
+}
+.trail__img {
+    display: block;
 }
 .trail__badge {
     position: absolute;
-    top: 1870px;
-    left: 1200px;
-    opacity: 80%;
+    top: 18px; 
+    left: -72px;
+    opacity: 0.8;
 }
 .trail__subtitle {
     display: block;
